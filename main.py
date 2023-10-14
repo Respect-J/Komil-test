@@ -7,4 +7,7 @@ class Komil:
         return self.name
 
 
+A = Komil()
+
+print(A.get_name())
 
