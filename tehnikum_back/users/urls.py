@@ -1,9 +1,8 @@
 from django.urls import path
-from .views import UsersAPI, UsersAPIPost
+from .views import UsersAPI
 
 
 urlpatterns = [
-    path('get/', UsersAPI.as_view(), name='userGET'),
-    path('post/', UsersAPIPost.as_view(), name='usersPOST')
+    path('get/', UsersAPI.as_view(), name='userprofileGETPost')
 ]
 
